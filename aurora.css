@@ -1,0 +1,442 @@
+
+.bglight{
+    position: relative;
+}
+.nl{
+    height: 43rem;
+    width:100%;
+}
+.text{
+    position: absolute;
+    font-size: x-large;
+    font-family: "Raleway","sans-serif";
+    font-weight: 300;
+}
+.togglers{
+    position: absolute;
+    font-family: "Raleway","sans-serif";
+    font-size: large;
+    font-weight: 200;
+    color: rgb(251, 255, 0);
+}
+.navtext:hover{
+    text-decoration: underline;
+}
+.mod{
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 34rem;
+    font-size: xx-large;
+    font-weight: 400;
+}
+.capsaurora{
+    position: absolute;
+    padding-top: 18rem;
+    font-size: 5rem;
+    font-family: "Raleway","sans-serif";
+}
+.abovebutton{
+    position: absolute;
+    padding-top: 24rem;
+    font-size:large;
+    font-family: "Raleway","sans-serif";    
+}
+.btn-info{
+    position: absolute;
+    font-size:2rem;
+    font-family: "Raleway","sans-serif";   
+    border-radius: 29%; 
+    margin-top: 27rem;
+    margin-left: 36rem;
+}
+a{
+    text-decoration: none;
+}
+.text1{
+    font-size: 2rem;
+    font-family: "Raleway","sans-serif"; 
+}
+.card-text{
+    font-family: "Raleway","sans-serif";
+}
+.card-title{
+    font-family: "Raleway","sans-serif";
+    margin-left: 1rem;
+}
+.card-title1{
+    font-family: "Raleway","sans-serif";
+    margin-left: 3rem;
+}
+.card-title2{
+    font-family: "Raleway","sans-serif";
+    margin-left: 6rem;
+}
+.card{
+    border: none;
+}
+.secondarymain{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Raleway","sans-serif";
+}
+.card-title3{
+    font-family: "Raleway","sans-serif";
+    margin-left: 8rem;
+}
+.card-title4{
+    font-family: "Raleway","sans-serif";
+    margin-left: 10rem;
+}
+.campers{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Raleway","sans-serif";
+}
+.fa-quote-left{
+    text-align: center;
+    font-size: 2rem;
+}
+.quotes{
+    font-family: "Raleway","sans-serif";
+    font-weight:500;
+}
+.name{
+    font-family: "Raleway","sans-serif";
+    font-weight:200;
+}
+.carauside{
+    font-family: "Raleway","sans-serif";
+}
+.carautext{
+    font-weight: 300;
+}
+.lasttext{
+    text-align: center;
+    font-family: "Raleway","sans-serif";
+    font-size: 2rem;
+    font-weight:500;
+}
+.tagtext{
+    text-align: center;
+    font-family: "Raleway","sans-serif";
+    font-size: 1rem;
+    font-weight:500;
+}
+.finalquote{
+    font-size: larger;
+    font-family: "Raleway","sans-serif";
+}
+.finalsign{
+font-size: 3rem;
+}
+.foot{
+    background-color: #343A40;
+    height: 10rem;
+}
+.foottext{
+    font-family: "Raleway","sans-serif";
+    font-size: larger;
+}
+/**.place{
+    display:flex;
+    border-top-right-radius: 9%;
+    border-bottom-right-radius: 9%;
+}
+.join{
+    border-radius: 9%;
+}**/
+.place{
+    width: 55rem;
+    padding-left: 32rem;
+}
+.finalfoot{
+    background-color: #212529;
+    height:5rem;
+    display: flex;
+    font-family: "Raleway","sans-serif";
+    font-weight:200;
+    font-size: large;
+    padding-top: 2rem;
+    padding-left: 22rem;
+}
+.mobnav{
+    display: none;
+}
+.tagtext1{
+display: none;
+}
+.mingmob{
+    display: none;
+}
+.nameauth1{
+    display: none;
+}
+.finalfootmob{
+    display: none;
+}
+/**.namelast{
+    font-family: "Raleway","sans-serif";
+    font-weight:200;
+    font-size: large;
+    padding-top: 2rem;
+    padding-left: 27rem;
+}**/
+@media (min-width:200px) and (max-width:500px){
+   /** .laptop{
+        display: none;
+    }**/
+    body{
+      overflow-x: hidden;
+    }
+    .nav{
+        display: none;
+    }
+    .mobnav{
+        display: flex;
+        background-color: #1F1F1F;
+        color: white;
+        width: 23rem;
+    }
+    .nl{
+        width:23rem;
+        height:33rem ;
+    }
+    .mod{
+        margin-top: 15rem;
+        margin-left: 6rem;
+        font-size: larger;
+        font-weight: 500;
+        color: white;
+        font-family: "Raleway","sans-serif";
+    }
+    .capsaurora{
+        padding-top: 17rem;
+        padding-left: 5rem;
+        font-size: 3rem;
+        font-family: "Raleway","sans-serif";
+        width: 15rem;
+        text-align: center;
+    }
+  .abovebutton{
+    display: none;
+  }
+  .btn-info{
+    font-size:x-large;
+    font-family: "Raleway","sans-serif";   
+    border-radius: 90%; 
+    margin-top: 24rem;
+    margin-left: 6rem;
+}
+.text1{
+    font-size:x-large;
+    width: 19rem;
+    font-family: "Raleway","sans-serif"; 
+    text-align: center;
+    padding-left: 3rem;
+    font-weight: 500;
+}
+.amen{
+    display: none;
+}
+.card-title{
+    padding-top: 1rem;
+    padding-left: 5rem;
+        font-family: "Raleway","sans-serif";
+        font-weight: 500;
+        font-size:large;
+}
+    .card-title1{
+     padding-top: 1rem;
+     padding-left: 3rem;
+     margin-left: 1rem;
+     font-family: "Raleway","sans-serif";
+    font-weight: 500;
+    font-size:large;
+ }
+    .card-title2{
+     padding-top: 1.5rem;
+     margin-left: 6rem;
+    font-family: "Raleway","sans-serif";
+   font-weight: 500;
+   font-size:large;
+}
+.card-body{
+    padding-top: 0rem;
+    padding-left: 5rem;
+        font-family: "Raleway","sans-serif";
+        font-size: smaller;
+        text-align: center;
+        width: 18rem;
+}
+.card-body1{
+    padding-top: 0rem;
+    padding-left: 1rem;
+        font-family: "Raleway","sans-serif";
+        font-size: smaller;
+        text-align: center;
+        width: 15rem;
+}
+.card-body2{
+    padding-top: 0rem;
+    padding-left: 1rem;
+        font-family: "Raleway","sans-serif";
+        font-size: smaller;
+        text-align: center;
+        width: 15rem;
+}
+.secondarymain{
+    text-align: center;
+    font-weight:400;
+    font-size: 1.3rem;
+    font-family: "Raleway","sans-serif";
+    padding-left: 3rem;
+    width: 18rem;
+}
+.hassle{
+    padding-left: 4rem;
+    width: 18rem;
+}
+.card-title3{
+    margin-left: 6rem;
+}
+.go{
+    padding-left: 6.5rem;
+    width: 18rem;
+}
+.hassle1{
+    padding-left: 4rem;
+    width: 18rem;
+    padding-top: 2rem;
+}
+.card-title4{
+    margin-left: 8rem;
+}
+.card-textex{
+padding-left: 4rem;
+    text-align: center;
+    width: 18rem;
+}
+.campers{
+    width: 16rem;
+    font-size: large;
+    padding-left: 5rem;
+}
+i{
+    padding-left: 4.5rem;
+    padding-top: 1rem;
+   width: 11rem;
+}
+.camp{
+    width: 15rem;
+    padding-left: 2rem;
+    padding-bottom: 0.4rem;
+    margin-left: 0.1rem;
+}
+.name{
+    font-family: "Raleway","sans-serif";
+    font-weight:200;
+    width: 13rem;
+    padding-left: 4rem;
+}
+.carousel-inner{
+padding-left: 2rem;
+margin-left: 1rem;
+width: 13rem;
+}
+.cozy{
+   font-size: large;
+   padding-left: 5rem;
+   padding-top: 0.1rem;
+   margin-top: 0.2;
+}
+.carautext{
+    font-weight: 300;
+    font-size: medium;
+    padding-left: 3rem;
+    width: 19rem;
+    text-align: center;
+}
+.text-success{
+    padding-left: 2rem;
+}
+.lasttext{
+    font-family: "Raleway","sans-serif";
+    font-size: 1rem;
+    font-weight: bolder;
+    font-weight:500;
+    width: 18rem;
+    padding-left: 6rem;
+}
+.tagtext{
+    display: none;
+}
+.tagtext1{
+    display: inline;
+    padding-left: 8rem;
+}
+.ming{
+    display: none;
+}
+.mingmob{
+    display: flex;
+    height: 6rem;
+    width: 22rem;
+    padding-left:3rem;
+}
+.finalsign{
+    padding-left: 10rem;
+width: 18rem;
+height: 3rem;
+}
+.finalquote{
+    height: 5rem;
+    width: 15rem;
+}
+.finalquote1{
+    text-align: center;
+    width: 22rem;
+}
+.nameauth{
+    display: none;
+}
+.nameauth1{
+    font-family: "Raleway","sans-serif";
+    width: 15rem;
+    display: flex;
+    padding-left:7rem;
+}
+.foottext{
+    font-family: "Raleway","sans-serif";
+    font-size:medium;
+    width: 18rem;
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+.place{
+    width: 20rem;
+    padding-left: 2rem;
+    height: 1rem;
+}
+.foot{
+    width: 23rem;
+}
+.finalfoot{
+   display: none;
+}
+.finalfootmob{
+    background-color: #212529;
+    height:11rem;
+    width: 23rem;
+    display: flex;
+    font-family: "Raleway","sans-serif";
+    font-weight:200;
+    font-size: medium;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+.mobile{
+    width: 1rem;
+    padding-left: 6.6rem;
+}
+}
