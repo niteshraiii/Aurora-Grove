@@ -215,7 +215,7 @@ display: none;
       overflow-x: auto;
     }
     .nav{
-        display: flex;
+        display: none;
     }
     .mobnav{
         display: flex;
