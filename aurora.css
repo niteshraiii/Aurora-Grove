@@ -212,7 +212,7 @@ display: none;
         display: none;
     }**/
     body{
-      overflow-x: hidden;
+      overflow-x: scroll;
     }
     .nav{
         display: none;
