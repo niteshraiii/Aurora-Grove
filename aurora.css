@@ -207,7 +207,7 @@ display: none;
     padding-top: 2rem;
     padding-left: 27rem;
 }**/
-@media (min-width:200px) and (max-width:500px){
+@media (min-width:320px) and (max-width:480px){
    /** .laptop{
         display: none;
     }**/
