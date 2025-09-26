@@ -210,36 +210,34 @@ display: none;
 
         /*****mobile*******/
 
-  /* ===== MOBILE STYLES ===== */
+   /* ===== MOBILE FIX FOR YOUR EXISTING HTML ===== */
 @media (max-width: 576px) {
-  /* ===== HEADER / NAV ===== */
-  header {
-    padding: 1rem;
-  }
-
+  /* NAVIGATION */
   nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
+    padding: 1rem 0;
   }
 
   nav ul {
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
+    list-style: none;
     padding: 0;
     margin: 0;
-    list-style: none;
+    text-align: center;
   }
 
   nav ul li a {
+    color: #fff; /* adjust if background is light */
     font-size: 1rem;
     text-decoration: none;
-    color: #333;
   }
 
-  /* ===== HERO ===== */
+  /* HERO SECTION */
   .hero {
     height: auto;
     padding: 4rem 1rem;
@@ -250,13 +248,14 @@ display: none;
   }
 
   .hero-content {
+    width: 100%;
     padding: 1.5rem;
     background: rgba(0, 0, 0, 0.4); /* readability */
     border-radius: 8px;
   }
 
   .hero h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 0.5rem;
   }
 
@@ -281,45 +280,36 @@ display: none;
     font-weight: bold;
   }
 
-  /* ===== CARDS / AMENITIES ===== */
+  /* AMENITIES / CARDS */
   .cards,
   .amenities {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* single column on mobile */
     gap: 1rem;
     padding: 2rem 1rem;
   }
 
   .card,
   .amenity {
-    padding: 1.5rem;
     text-align: center;
+    padding: 1.2rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
 
-  .card img,
-  .amenity img {
-    width: 100%;
-    height: auto;
-    border-radius: 6px;
-  }
-
-  /* ===== FOOTER ===== */
+  /* FOOTER */
   footer {
     padding: 2rem 1rem;
     text-align: center;
-    background: #333;
-    color: #fff;
   }
 
   footer ul {
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
-    padding: 0;
-    margin: 1rem 0 0;
     list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
   }
 
   footer ul li a {
@@ -328,5 +318,6 @@ display: none;
     font-size: 0.9rem;
   }
 }
+
 
     
