@@ -207,261 +207,161 @@ display: none;
     padding-top: 2rem;
     padding-left: 27rem;
 }**/
-@media (min-width:220px) and (max-width:500px){
-   /** .laptop{
-        display: none;
-    }**/
-    body{
-      overflow-x: auto;
-    }
-    .nav{
-        display: none;
-    }
-    .mobnav{
-        display: flex;
-        background-color: #1F1F1F;
-        color: white;
-        width: 32rem;
-    }
-    .nl{
-        width:23rem;
-        height:33rem ;
-    }
-    .mod{
-        margin-top: 15rem;
-        margin-left: 6rem;
-        font-size: larger;
-        font-weight: 500;
-        color: white;
-        font-family: "Raleway","sans-serif";
-    }
-    .capsaurora{
-        padding-top: 17rem;
-        padding-left: 5rem;
-        font-size: 3rem;
-        font-family: "Raleway","sans-serif";
-        width: 15rem;
-        text-align: center;
-    }
-  .abovebutton{
+
+        /*****mobile*******/
+/* ====== Mobile CSS (for phones) ====== */
+@media (max-width: 576px) {
+
+  /* Background image adjustments */
+  .nl {
+    height: 25rem;
+    object-fit: cover;
+  }
+
+  /* Hide laptop nav and show mobile nav */
+  .nav, .togglers {
     display: none;
   }
-  .btn-info{
-    font-size:x-large;
-    font-family: "Raleway","sans-serif";   
-    border-radius: 90%; 
-    margin-top: 24rem;
-    margin-left: 6rem;
-}
-.text1{
-    font-size:x-large;
-    width: 19rem;
-    font-family: "Raleway","sans-serif"; 
+  .mobnav {
+    display: block;
+  }
+
+  /* Hero text adjustments */
+  .mod {
+    margin-top: 10rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
     text-align: center;
-    padding-left: 3rem;
-    font-weight: 500;
-}
-.amen{
-    display: none;
-}
-.card-title{
-    padding-top: 1rem;
-    padding-left: 5rem;
-        font-family: "Raleway","sans-serif";
-        font-weight: 500;
-        font-size:large;
-}
-    .card-title1{
-     padding-top: 1rem;
-     padding-left: 3rem;
-     margin-left: 1rem;
-     font-family: "Raleway","sans-serif";
-    font-weight: 500;
-    font-size:large;
- }
-    .card-title2{
-     padding-top: 1.5rem;
-     margin-left: 6rem;
-    font-family: "Raleway","sans-serif";
-   font-weight: 500;
-   font-size:large;
-}
-.card-body{
-    padding-top: 0rem;
-    padding-left: 5rem;
-        font-family: "Raleway","sans-serif";
-        font-size: smaller;
-        text-align: center;
-        width: 18rem;
-}
-.card-body1{
-    padding-top: 0rem;
-    padding-left: 1rem;
-        font-family: "Raleway","sans-serif";
-        font-size: smaller;
-        text-align: center;
-        width: 15rem;
-}
-.card-body2{
-    padding-top: 0rem;
-    padding-left: 1rem;
-        font-family: "Raleway","sans-serif";
-        font-size: smaller;
-        text-align: center;
-        width: 15rem;
-}
-.secondarymain{
+    width: 100%;
+  }
+
+  .capsaurora {
+    padding-top: 12rem;
+    font-size: 2rem;
     text-align: center;
-    font-weight:400;
-    font-size: 1.3rem;
-    font-family: "Raleway","sans-serif";
-    padding-left: 3rem;
-    width: 18rem;
-}
-.hassle{
-    padding-left: 4rem;
-    width: 18rem;
-}
-.card-title3{
-    margin-left: 6rem;
-}
-.go{
-    padding-left: 6.5rem;
-    width: 18rem;
-}
-.hassle1{
-    padding-left: 4rem;
-    width: 18rem;
-    padding-top: 2rem;
-}
-.card-title4{
-    margin-left: 8rem;
-}
-.card-textex{
-padding-left: 4rem;
-    text-align: center;
-    width: 18rem;
-}
-.campers{
-    width: 16rem;
-    font-size: large;
-    padding-left: 5rem;
-}
-i{
-    padding-left: 4.5rem;
-    padding-top: 1rem;
-   width: 11rem;
-}
-.camp{
-    width: 15rem;
-    padding-left: 2rem;
-    padding-bottom: 0.4rem;
-    margin-left: 0.1rem;
-}
-.name{
-    font-family: "Raleway","sans-serif";
-    font-weight:200;
-    width: 13rem;
-    padding-left: 4rem;
-}
-.carousel-inner{
-padding-left: 2rem;
-margin-left: 1rem;
-width: 13rem;
-}
-.cozy{
-   font-size: large;
-   padding-left: 5rem;
-   padding-top: 0.1rem;
-   margin-top: 0.2;
-}
-.carautext{
-    font-weight: 300;
-    font-size: medium;
-    padding-left: 3rem;
-    width: 19rem;
-    text-align: center;
-}
-.text-success{
-    padding-left: 2rem;
-}
-.lasttext{
-    font-family: "Raleway","sans-serif";
+  }
+
+  .abovebutton {
+    padding-top: 16rem;
     font-size: 1rem;
-    font-weight: bolder;
-    font-weight:500;
-    width: 18rem;
-    padding-left: 6rem;
-}
-.tagtext{
-    display: none;
-}
-.tagtext1{
-    display: inline;
-    padding-left: 8rem;
-}
-.ming{
-    display: none;
-}
-.mingmob{
-    display: flex;
-    height: 6rem;
-    width: 22rem;
-    padding-left:3rem;
-}
-.finalsign{
-    padding-left: 10rem;
-width: 18rem;
-height: 3rem;
-}
-.finalquote{
-    height: 5rem;
-    width: 15rem;
-}
-.finalquote1{
     text-align: center;
-    width: 22rem;
-}
-.nameauth{
+    width: 100%;
+  }
+
+  .btn-info {
+    margin-top: 20rem;
+    margin-left: 35%;
+    font-size: 1.2rem;
+    border-radius: 15px;
+  }
+
+  /* Main text */
+  .text1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 1rem;
+  }
+
+  /* Cards */
+  .card {
+    margin: 1rem auto;
+    width: 90% !important;
+  }
+
+  .card-title, .card-title1, .card-title2,
+  .card-title3, .card-title4 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .card-text1, .card-text2, .card-text3 {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Secondary main text */
+  .secondarymain {
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+
+  /* Carousel section */
+  .carauside {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  .carautext {
+    font-size: 1rem;
+  }
+
+  /* Camper quotes */
+  .campers {
+    font-size: 1.2rem;
+  }
+  .quotes {
+    font-size: 0.9rem;
+  }
+
+  /* Hashtags */
+  .tagtext {
     display: none;
-}
-.nameauth1{
-    font-family: "Raleway","sans-serif";
-    width: 15rem;
+  }
+  .tagtext1 {
+    display: block;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  /* Gallery */
+  .ming {
+    display: none;
+  }
+  .mingmob {
     display: flex;
-    padding-left:7rem;
-}
-.foottext{
-    font-family: "Raleway","sans-serif";
-    font-size:medium;
-    width: 18rem;
-    padding-left: 4rem;
-    padding-top: 1rem;
-}
-.place{
-    width: 20rem;
-    padding-left: 2rem;
-    height: 1rem;
-}
-.foot{
-    width: 23rem;
-}
-.finalfoot{
-   display: none;
-}
-.finalfootmob{
-    background-color: #212529;
-    height:11rem;
-    width: 23rem;
-    display: flex;
-    font-family: "Raleway","sans-serif";
-    font-weight:200;
+  }
+
+  /* Final quote */
+  .finalquote1 .lastquote {
+    font-size: 0.9rem;
+    margin: 0 1rem;
+  }
+  .nameauth {
+    display: none;
+  }
+  .nameauth1 {
+    display: block;
+    font-size: 0.8rem;
+  }
+
+  /* Footer */
+  .place {
+    width: 100%;
+    padding-left: 0;
+  }
+  .input-group {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .foottext {
     font-size: medium;
-    padding-top: 2rem;
-    padding-left: 2rem;
-}
-/**.mobile{
-    width: 1rem;
-    padding-left: 6.6rem;
-}**/
+    padding: 0 1rem;
+  }
+  .finalfoot {
+    display: none;
+  }
+  .finalfootmob {
+    display: block;
+    background-color: #212529;
+    padding: 1rem 0;
+  }
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mobile div {
+    margin: 0.3rem 0;
+  }
 }
