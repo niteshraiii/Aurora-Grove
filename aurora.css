@@ -210,158 +210,73 @@ display: none;
 
         /*****mobile*******/
 /* ====== Mobile CSS (for phones) ====== */
+/* ===== HERO SECTION ===== */
+.hero {
+  position: relative;
+  height: 100vh; /* Full screen height */
+  background: url('your-image.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0 1rem;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.5); /* Optional overlay for readability */
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  background: #00bfff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+  background: #0099cc;
+}
+
+/* ===== MOBILE FIX ===== */
 @media (max-width: 576px) {
-
-  /* Background image adjustments */
-  .nl {
-    height: 25rem;
-    object-fit: cover;
+  .hero {
+    height: auto;
+    padding: 4rem 1rem;
   }
 
-  /* Hide laptop nav and show mobile nav */
-  .nav, .togglers {
-    display: none;
-  }
-  .mobnav {
-    display: block;
+  .hero-content {
+    padding: 1.5rem;
   }
 
-  /* Hero text adjustments */
-  .mod {
-    margin-top: 10rem;
-    margin-left: 1rem;
-    font-size: 1.2rem;
-    text-align: center;
-    width: 100%;
-  }
-
-  .capsaurora {
-    padding-top: 12rem;
+  .hero h1 {
     font-size: 2rem;
-    text-align: center;
   }
 
-  .abovebutton {
-    padding-top: 16rem;
-    font-size: 1rem;
-    text-align: center;
-    width: 100%;
-  }
-
-  .btn-info {
-    margin-top: 20rem;
-    margin-left: 35%;
-    font-size: 1.2rem;
-    border-radius: 15px;
-  }
-
-  /* Main text */
-  .text1 {
-    font-size: 1.5rem;
-    text-align: center;
-    margin: 0 1rem;
-  }
-
-  /* Cards */
-  .card {
-    margin: 1rem auto;
-    width: 90% !important;
-  }
-
-  .card-title, .card-title1, .card-title2,
-  .card-title3, .card-title4 {
-    margin-left: 0;
-    text-align: center;
-  }
-
-  .card-text1, .card-text2, .card-text3 {
-    width: auto;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  /* Secondary main text */
-  .secondarymain {
-    font-size: 1.2rem;
-    margin: 1rem;
-  }
-
-  /* Carousel section */
-  .carauside {
-    text-align: center;
-    margin-top: 1rem;
-    padding: 1rem;
-  }
-  .carautext {
+  .hero p {
     font-size: 1rem;
   }
 
-  /* Camper quotes */
-  .campers {
-    font-size: 1.2rem;
-  }
-  .quotes {
-    font-size: 0.9rem;
-  }
-
-  /* Hashtags */
-  .tagtext {
-    display: none;
-  }
-  .tagtext1 {
-    display: block;
-    text-align: center;
-    font-size: 0.9rem;
-  }
-
-  /* Gallery */
-  .ming {
-    display: none;
-  }
-  .mingmob {
-    display: flex;
-  }
-
-  /* Final quote */
-  .finalquote1 .lastquote {
-    font-size: 0.9rem;
-    margin: 0 1rem;
-  }
-  .nameauth {
-    display: none;
-  }
-  .nameauth1 {
-    display: block;
-    font-size: 0.8rem;
-  }
-
-  /* Footer */
-  .place {
-    width: 100%;
-    padding-left: 0;
-  }
-  .input-group {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .foottext {
-    font-size: medium;
-    padding: 0 1rem;
-  }
-  .finalfoot {
-    display: none;
-  }
-  .finalfootmob {
-    display: block;
-    background-color: #212529;
-    padding: 1rem 0;
-  }
-  .mobile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .mobile div {
-    margin: 0.3rem 0;
+  .hero .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
   }
 }
+
+
