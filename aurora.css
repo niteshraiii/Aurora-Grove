@@ -209,74 +209,124 @@ display: none;
 }**/
 
         /*****mobile*******/
-/* ====== Mobile CSS (for phones) ====== */
-/* ===== HERO SECTION ===== */
-.hero {
-  position: relative;
-  height: 100vh; /* Full screen height */
-  background: url('your-image.jpg') no-repeat center center/cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-  padding: 0 1rem;
-}
 
-.hero-content {
-  background: rgba(0, 0, 0, 0.5); /* Optional overlay for readability */
-  padding: 2rem;
-  border-radius: 10px;
-}
-
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.hero p {
-  font-size: 1.25rem;
-  margin-bottom: 2rem;
-}
-
-.hero .btn {
-  display: inline-block;
-  background: #00bfff;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background 0.3s ease;
-}
-
-.hero .btn:hover {
-  background: #0099cc;
-}
-
-/* ===== MOBILE FIX ===== */
+  /* ===== MOBILE STYLES ===== */
 @media (max-width: 576px) {
+  /* ===== HEADER / NAV ===== */
+  header {
+    padding: 1rem;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  nav ul li a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #333;
+  }
+
+  /* ===== HERO ===== */
   .hero {
     height: auto;
     padding: 4rem 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .hero-content {
     padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.4); /* readability */
+    border-radius: 8px;
+  }
+
+  .hero h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
   }
 
   .hero h1 {
     font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
   .hero p {
     font-size: 1rem;
+    margin-bottom: 1.2rem;
   }
 
   .hero .btn {
+    display: inline-block;
     padding: 0.6rem 1.2rem;
     font-size: 1rem;
+    background: #00bfff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* ===== CARDS / AMENITIES ===== */
+  .cards,
+  .amenities {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 2rem 1rem;
+  }
+
+  .card,
+  .amenity {
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .card img,
+  .amenity img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0;
+    margin: 1rem 0 0;
+    list-style: none;
+  }
+
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
   }
 }
 
-
+    
